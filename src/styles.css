@@ -71,3 +71,11 @@
  .page-width,.topbar{width:calc(100% - 28px)}.profile-intro{gap:11px;padding:10px}.profile-intro img{flex:0 0 112px;width:112px;height:140px}.profile-intro h2{font-size:25px}
  .zone-title{font-size:8.5px}.zone-nodes .arch-node b{font-size:8.5px}.hero-actions{flex-wrap:wrap;gap:12px}.button-primary,.button-quiet{font-size:12px}
 }
+
+
+/* Keep project links in normal flow so they cannot cover wrapped tags. */
+.project-card{display:flex;flex-direction:column;min-height:470px;height:auto}
+.project-link{position:static;left:auto;right:auto;bottom:auto;width:100%;margin-top:auto;padding-top:12px;flex-shrink:0}
+.project-card>p{overflow-wrap:anywhere}
+@media(max-width:900px){.project-card{min-height:470px}.project-link{left:auto;right:auto}}
+@media(max-width:680px){.project-card{min-height:0;padding:18px}.project-link{left:auto;right:auto;margin-top:20px}.project-card>p{min-height:0}.community-card h3{overflow-wrap:anywhere}}
