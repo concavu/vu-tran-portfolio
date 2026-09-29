@@ -50,3 +50,5 @@
  .profile-intro{gap:11px;padding:10px 11px}.profile-intro img{flex-basis:82px;width:82px;height:104px}.profile-intro h2{font-size:25px}
  .hero-description,.about-copy p,.project-card>p,.community-card p,.contact-content>p{font-size:14px}.signal-inner{font-size:9px}
 }
+
+.profile-intro{align-self:start;height:fit-content}
