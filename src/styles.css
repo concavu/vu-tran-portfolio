@@ -30,3 +30,23 @@
 .zone-title{font-size:9px}.zone-title small{font-size:8px}.arch-node>b{font-size:11px}.arch-node small{font-size:9px}.arch-legend,.arch-label{font-size:9px}
 @media(max-width:680px){.profile-intro{gap:13px;padding:11px 12px}.profile-intro img{flex-basis:76px;width:76px;height:96px}.profile-intro h2{font-size:26px}.profile-facts{font-size:12px}.about-copy p{font-size:14px}.hero-description{font-size:15px}.hero-footnote{font-size:10px}.section-heading>p{font-size:12px}.project-card>p{font-size:12px}.tag-list span{font-size:9px}.skill-card h3{font-size:13px}.skill-card li{font-size:11px}.community-grid{grid-template-columns:1fr}.community-card{min-height:0}.community-card p{font-size:13px}.contact-content>p{font-size:14px}.phone-link{font-size:12px}.footer>span{font-size:10px}.zone-title{font-size:8px}.zone-title small{font-size:7px}.arch-node>b{font-size:10px}.arch-node small{font-size:8px}.arch-legend{font-size:8px}}
 @media(max-width:380px){.page-width,.topbar{width:calc(100% - 28px)}.profile-intro{gap:10px;padding:10px}.profile-intro img{flex-basis:68px;width:68px;height:88px}.profile-intro h2{font-size:23px}.signal-inner{font-size:8px}.arch-legend{font-size:7px}}
+
+
+/* Final responsive type scale and portrait sizing */
+.profile-intro img{flex-basis:112px;width:112px;height:140px}
+.profile-intro h2{font-size:32px;line-height:1.16}
+.hero-description,.about-copy p,.project-card>p,.community-card p,.contact-content>p{font-size:15px;line-height:1.75}
+.project-card h3,.community-card h3{font-size:17px}
+.skill-card h3{font-size:15px}.skill-card li,.profile-facts,.toolkit-extra,.footer>span{font-size:12px}
+.button-primary,.button-quiet,.nav-links,.text-link,.project-link,.phone-link{font-size:13px}
+.eyebrow,.section-label,.project-type,.project-number,.terminal-head,.state-label,.terminal-bottom,.signal-inner,.arch-label,.arch-node small,.zone-title,.arch-legend,.back-top,.footer>small,.project-note,.tag-list span{font-size:10px}
+@media(max-width:680px){
+ .profile-intro{gap:15px;padding:12px 14px}.profile-intro img{flex-basis:94px;width:94px;height:118px}.profile-intro h2{font-size:27px}
+ .hero-description,.about-copy p,.project-card>p,.community-card p,.contact-content>p{font-size:15px;line-height:1.75}
+ .project-card h3,.community-card h3{font-size:16px}.skill-card h3{font-size:14px}.skill-card li,.profile-facts,.footer>span{font-size:12px}
+ .section-heading>p{font-size:13px}.zone-title{font-size:9px}.zone-title small,.arch-node small,.arch-legend{font-size:8px}
+}
+@media(max-width:380px){
+ .profile-intro{gap:11px;padding:10px 11px}.profile-intro img{flex-basis:82px;width:82px;height:104px}.profile-intro h2{font-size:25px}
+ .hero-description,.about-copy p,.project-card>p,.community-card p,.contact-content>p{font-size:14px}.signal-inner{font-size:9px}
+}
