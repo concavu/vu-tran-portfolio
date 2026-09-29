@@ -56,12 +56,12 @@ Built a network programming course prototype with a student team: a C# client-se
 - Participant, Automotive Hackathon 2026 (Hà Nội) and UniHackfest 2026
 - Volunteer blood donor, **Chủ Nhật Đỏ** (2025 and 2026); community charity run (2025)
 - Exploring a web app workflow for extracting YouTube content, generating multilingual subtitles, and clipping videos (2026)
-
+- MiniPay | Celo Community Mixer
 ## Contact
 
 - GitHub: [@concavu](https://github.com/concavu)
 - Phone: [0856 865 932](tel:+84856865932)
-
+- Gmail: [stanhvu123456@gmail.com](stanhvu123456@gmail.com)
 ---
 
 ## Run locally
