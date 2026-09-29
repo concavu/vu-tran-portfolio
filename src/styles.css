@@ -52,3 +52,22 @@
 }
 
 .profile-intro{align-self:start;height:fit-content}
+
+/* Mobile readability and overlap fixes */
+.profile-intro{align-self:start;height:fit-content}
+.profile-intro img{flex:0 0 156px;width:156px;height:196px;object-fit:cover;object-position:center 27%}
+.profile-intro h2{font-size:clamp(29px,3vw,34px);line-height:1.18;overflow-wrap:anywhere}
+.project-card h3,.project-card>p,.skill-card li,.toolkit-extra span,.community-card h3,.community-card p,.zone-nodes .arch-node b,.zone-nodes .arch-node small{overflow-wrap:anywhere}
+@media(max-width:680px){
+ .profile-intro{gap:14px;padding:12px 14px}.profile-intro img{flex:0 0 122px;width:122px;height:152px}.profile-intro h2{font-size:27px}
+ .about-grid{align-items:start}.about-copy p{font-size:15px;line-height:1.75}
+ .skill-card{min-height:0}.skill-card ul{grid-template-columns:minmax(0,1fr)}.skill-card li{font-size:12px;line-height:1.45}
+ .toolkit-extra{align-items:flex-start;flex-direction:column;gap:7px}.toolkit-extra span{line-height:1.65}
+ .zone-title{font-size:9px;line-height:1.25;max-width:calc(100% - 16px)}.zone-title small{font-size:8px}
+ .zone-nodes .arch-node{min-width:0;min-height:78px;padding:8px 5px;gap:5px}.zone-nodes .arch-node b{font-size:9px;line-height:1.25}.zone-nodes .arch-node small{font-size:8px;line-height:1.3}
+ .arch-label,.arch-legend{font-size:9px}.signal-inner{font-size:9px}.project-card>p{font-size:13px;line-height:1.7}.tag-list span{font-size:10px}
+}
+@media(max-width:380px){
+ .page-width,.topbar{width:calc(100% - 28px)}.profile-intro{gap:11px;padding:10px}.profile-intro img{flex:0 0 112px;width:112px;height:140px}.profile-intro h2{font-size:25px}
+ .zone-title{font-size:8.5px}.zone-nodes .arch-node b{font-size:8.5px}.hero-actions{flex-wrap:wrap;gap:12px}.button-primary,.button-quiet{font-size:12px}
+}
