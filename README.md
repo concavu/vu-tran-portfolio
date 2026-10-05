@@ -23,14 +23,6 @@ Designed and configured a Cisco Packet Tracer enterprise topology for headquarte
 - OSPF Area 0 between HQ, edge router, and branch; LACP EtherChannel uplink redundancy
 - DMZ services, ACLs, NAT overload, and wireless access
 
-### Enterprise Private Cloud & Observability Platform
-
-Designed a containerized private-cloud storage environment using Docker Compose and layered network isolation.
-
-- Nginx reverse-proxy edge in 172.20.10.0/24; isolated Nextcloud, MariaDB, and Redis backend in 172.20.20.0/24
-- MinIO S3 object storage in 172.20.30.0/24
-- Prometheus and Grafana for resource and service monitoring
-
 ### AI Camera Intrusion Monitoring (team project)
 
 Built a network programming course prototype with a student team: a C# client-server camera monitoring system with AI-assisted person detection.
