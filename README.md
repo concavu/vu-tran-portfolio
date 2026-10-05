@@ -23,6 +23,14 @@ Designed and configured a Cisco Packet Tracer enterprise topology for headquarte
 - OSPF Area 0 between HQ, edge router, and branch; LACP EtherChannel uplink redundancy
 - DMZ services, ACLs, NAT overload, and wireless access
 
+### Enterprise Private Cloud & Observability Platform
+
+Built a Docker Compose-based private-cloud storage platform with segmented networks, a Nextcloud application stack, S3-compatible storage, and host/container monitoring.
+
+- Nginx edge proxy, Nextcloud, MariaDB, Redis, and MinIO
+- Prometheus, Grafana, cAdvisor, and Node Exporter
+- [View the project repository](https://github.com/concavu/PRIVATE-CLOUD-MONITORING)
+
 ### AI Camera Intrusion Monitoring (team project)
 
 Built a network programming course prototype with a student team: a C# client-server camera monitoring system with AI-assisted person detection.
@@ -59,8 +67,8 @@ Built a network programming course prototype with a student team: a C# client-se
 ## Run locally
 
 ```bash
-npm install
-npm run dev
+pnpm install --frozen-lockfile
+pnpm dev
 ```
 
-To create a production build, run `npm run build`.
+To create a production build, run `pnpm build`. Install pnpm first if it is not already available.
