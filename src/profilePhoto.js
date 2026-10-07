@@ -1,1 +1,1 @@
-export default '/vu-tran-portfolio/ảnhps.jpg'
+export default `${import.meta.env.BASE_URL}ảnhps.jpg`

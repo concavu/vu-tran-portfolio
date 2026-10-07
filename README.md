@@ -2,12 +2,12 @@
   <h1>Trần Hoàng Anh Vũ</h1>
   <p><strong>Computer Networks & Communications Student · Infrastructure · Network · Cloud</strong></p>
   <p>Văn Hiến University · Ho Chi Minh City, Vietnam</p>
-  <p><a href="https://concavu.github.io/vu-tran-portfolio/">🌐 Open the live portfolio preview</a> · <a href="https://github.com/concavu">GitHub profile</a></p>
+  <p><a href="https://concavu.github.io/Vu-Tran-Portfolio/">🌐 Open the live portfolio</a> · <a href="https://github.com/concavu">GitHub profile</a></p>
 </div>
 
 ## Portfolio preview
 
-[View the responsive dark-theme website](https://concavu.github.io/vu-tran-portfolio/)
+[View the responsive portfolio website](https://concavu.github.io/Vu-Tran-Portfolio/)
 
 ## About
 
@@ -20,8 +20,9 @@ I’m studying **Computer Networks and Communications** at Văn Hiến Universit
 Designed and configured a Cisco Packet Tracer enterprise topology for headquarters, a DMZ server farm, and a branch office connected over a simulated WAN.
 
 - Hierarchical core and access switching with VLANs, IEEE 802.1Q trunks, and inter-VLAN routing
-- OSPF Area 0 between HQ, edge router, and branch; LACP EtherChannel uplink redundancy
+- OSPF Area 0 between HQ, edge router, and branch; LACP EtherChannel uplinks
 - DMZ services, ACLs, NAT overload, and wireless access
+- [View the Packet Tracer project](https://github.com/concavu/PR-cisco)
 
 ### Enterprise Private Cloud & Observability Platform
 
@@ -38,6 +39,7 @@ Built a network programming course prototype with a student team: a C# client-se
 - Webcam capture and JPEG frame transport over UDP on a local network
 - OpenCvSharp, YOLOv8, and ONNX Runtime for frame analysis
 - Asynchronous SMTP alert workflow with evidence snapshots; TCP/UDP and multithreading considerations
+- [View the project repository](https://github.com/concavu/CameraMoniterSystem)
 
 ## Technical toolkit
 
@@ -61,7 +63,7 @@ Built a network programming course prototype with a student team: a C# client-se
 
 - GitHub: [@concavu](https://github.com/concavu)
 - Phone: [0856 865 932](tel:+84856865932)
-- Gmail: [stanhvu123456@gmail.com](stanhvu123456@gmail.com)
+- Email: [stanhvu123456@gmail.com](mailto:stanhvu123456@gmail.com)
 ---
 
 ## Run locally
